@@ -4,7 +4,7 @@
 </p>
 
 ## Overview
-In this repository, you will find Python codes that collectively aim to find optimal foldings for protein sequences using the concepts of 2D hydrophobic-polar protein folding model and genetic algorithms.
+This repository contains Python codes that collectively aim to find optimal foldings for protein sequences using the concepts of 2D hydrophobic-polar protein folding model and genetic algorithms.
 * `hp_model.py` contains the tools necessary for the 2D HP protein folding model,
 * `genetic_algorithm.py` is an implementation of the genetic algorithm suitable for the problem at hand,
 * `main.py` is a driver program that utilizes all the tools to output solutions.
