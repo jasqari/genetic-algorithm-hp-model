@@ -15,7 +15,7 @@ if __name__ == "__main__":
         "--pop_size",
         type=int,
         default=1000,
-        help="Number of generations as the stopping criterion of the iterative algorithm",
+        help="Population size of each generation of the evolutionary algorithm",
     )
     parser.add_argument(
         "--num_gens",
