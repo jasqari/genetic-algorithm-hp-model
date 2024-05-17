@@ -1,4 +1,4 @@
-# HP Protein Folding Model using Genetic Algorithm
+# 2D HP Protein Folding Model using Genetic Algorithm
 <p align="center">
  <img src="https://github.com/jasqari/genetic-algorithm-hp-model/assets/44480584/17b02515-f662-4639-8b13-5a470f1fa0c5"/>
 </p>
