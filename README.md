@@ -4,7 +4,7 @@
 </p>
 
 ## Overview
-This repository contains Python codes that collectively aim to find optimal foldings for protein sequences using the concepts of 2D hydrophobic-polar protein folding model and genetic algorithms.
+This repository contains Python codes that collectively aim to find optimal foldings for protein sequences using the concepts of 2D hydrophobic-polar protein folding model and genetic algorithm.
 * `hp_model.py` contains the tools necessary for the 2D HP protein folding model,
 * `genetic_algorithm.py` is an implementation of the genetic algorithm suitable for the problem at hand,
 * `main.py` is a driver program that utilizes all the tools to output solutions.
@@ -36,7 +36,7 @@ python3 main.py 5 --pop_size 1000 --num_gens 500 --epsilon 1e-5 --energy_func cu
 The quality of the search results relies heavily on the values of these parameters, especially `--pop_size` and `--energy_func`.
 For shorter sequences lower the `--pop_size` as the algorithm won't be able to generate enough unique solutions and as a result, the search process will be stopped. Alternatively, change the algorithm to include duplicate solutions in the population, which may in turn hurt the quality of search results.
 No need to mention, that for a longer sequence, a large enough population size and a lot of patience are necessary.
-`berger` energy function [1][https://dl.acm.org/doi/10.1145/279069.279080] is relatively simpler than `custodio` [2][https://www.scielo.br/j/gmb/a/nbhndMBBG5z4y39hyZ7463f/?format=html&lang=en] and might work better in some scenarios. However, in most cases, `custodio` outperformed `berger` as a fitness function. Moreover, you may customize the default weights involved in `custodio` according to your needs and further enhance the search results.
+`berger` energy function [1](https://dl.acm.org/doi/10.1145/279069.279080) is relatively simpler than `custodio` [2](https://www.scielo.br/j/gmb/a/nbhndMBBG5z4y39hyZ7463f/?format=html&lang=en) and might work better in some scenarios. However, in most cases, `custodio` outperformed `berger` as a fitness function. Moreover, you may customize the default weights involved in `custodio` according to your needs and further enhance the search results.
 
 Finally, log the optimization process and graphically display the (locally) optimal protein folding:
 ```
