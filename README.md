@@ -2,7 +2,6 @@
 <p align="center">
  <img src="https://github.com/jasqari/genetic-algorithm-hp-model/assets/44480584/17b02515-f662-4639-8b13-5a470f1fa0c5"/>
 </p>
-![fold](https://github.com/jasqari/genetic-algorithm-hp-model/assets/44480584/f1a2e5cf-f3c3-46a2-ab31-8a84c94de27c)
 
 ## Overview
 This repository contains Python codes that collectively aim to find optimal foldings for protein sequences using the concepts of 2D hydrophobic-polar protein folding model and genetic algorithms.
